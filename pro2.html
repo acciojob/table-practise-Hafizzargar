@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:hover{
+            background-color: rgb(172, 220, 220);
+        }
+    </style>
+</head>
+<body>
+    <h1>Books</h1>
+    <table border="1" style="border-collapse: collapse;">
+        <thead>
+            <tr>
+                <th> Book ID</th>
+                <th>  Author</th>
+                <th>Genre</th>
+                <th>Availability</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>
+                    <a href="#">Book title 1</a><br>
+                    <span style="border: 1px solid black;">Publication Date:2000</span><br>
+                    <span style="border: 1px solid black;">Page Count:250</span><br>
+                    <span style="border: 1px solid black;">  ISBN:123-67890</span><br>
+                    
+
+                </td>
+                <td>Author name 1</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>
+                    <a href="#">Book title 2</a><br>
+                       
+                        <span style="border: 1px solid black;">Publication Date:2002</span><br>
+                        <span style="border: 1px solid black;">Page Count:200</span><br>
+                        <span style="border: 1px solid black;">  ISBN:34656-76678008</span><br>
+                    
+
+                </td>
+                <td>Author name 2</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>
+                    <a href="#">Book title 3</a><br>
+                        
+                        <span style="border: 1px solid black;">Publication Date:2007</span><br>
+                        <span style="border: 1px solid black;">Page Count:120</span><br>
+                        <span style="border: 1px solid black;">  ISBN:34656-78008</span><br>
+                    
+
+                </td>
+                <td>Author name 3</td>
+                <td>Available</td>
+            </tr>
+
+        </tbody>
+    
+    </table>
+    <H1>Register</H1>
+    <form>
+        <label  for="Firstname">First Name:</label><br>
+    <p>   <input type="text" id="Firstname" size="100%" required></p> <br>
+        <label  for="lastname">Last Name:</label><br>
+    <p>   <input type="text" id="lastname" size="100%" required></p> <br>
+        <label for="date">Date Of Birth:</label><br>
+    <p>   <input type="date" id="date" required></p> <br>
+        <label for="age">Age:</label><br>
+    <p>  <input type="number" min="5" max="100" id="age" required><p> <br>
+        
+        <label for="email">Email:</label><br>
+    <p>  <input type="email" id="email" size="100%" required></p> <br>
+        <label for="pw">Password:</label><br>
+       <p><input type="password" id="pw" size="100%" required></p> <br>
+        <label for="cpw">Confirm Password:</label><br>
+       <p> <input type="password" id="cpw" size="100%" required></p><br>
+        <p style="text-align: center; background-color: black; color: aliceblue;"><input type="submit" value="Register" style="background-color: black; color: aliceblue;">
+        </p>
+
+
+    </form>
+</body>
+</html>
